@@ -1,3 +1,6 @@
+-- Table
+select * from SampleSuperstore ; 
+
 -- 1. Sales & profit by category/sub-category ? 
 SELECT Category, Sub_Category,
        SUM(Sales) AS Total_Sales,
@@ -60,6 +63,19 @@ FROM SampleSuperstore
 GROUP BY Segment
 ORDER BY Total_Profit DESC;
 
+-- Top findings here ?
+SELECT category, 
+SUM(profit) as total_profit 
+FROM SampleSuperstore 
+GROUP BY category 
+ORDER BY total_profit DESC;
 
-select * from SampleSuperstore ; 
+-- discount vs. profit relationship finding
+
+SELECT discount, AVG(profit) as avg_profit FROM SampleSuperstore GROUP BY discount ORDER BY discount;
+
+-- best/worst performing region or segment
+
+SELECT region, SUM(sales) as total_sales FROM SampleSuperstore GROUP BY region ORDER BY total_sales DESC;
+
 
