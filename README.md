@@ -20,3 +20,8 @@ Analyze retail sales data to uncover trends in revenue, profit, and order volume
 - Customer segment analysis (Consumer, Corporate, Home Office)
 - Discount impact on profit margins
 - Top and bottom performing products
+
+## Key Insights
+- Technology generated the highest total profit (~$145.5K), followed by Office Supplies (~$122.5K), while Furniture lagged significantly behind (~$18.5K)
+- Orders with discounts up to 20% remained profitable (peak avg. profit of ~$96 at 10% discount), but discounts above 20% consistently resulted in losses, with the steepest average loss (~-$310) occurring at a 50% discount
+- The West region led in total sales (~$725.5K), followed by East (~$678.8K) and Central (~$501.2K), while the South region had the lowest sales (~$391.7K)
