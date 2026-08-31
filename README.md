@@ -23,4 +23,5 @@ Analyze retail sales data to uncover trends in revenue, profit, and order volume
 
 ## Key Insights
 - (Add your top findings here, e.g. "Technology category generated the highest profit margin")
-- (Add discount vs. profit
+- (Add discount vs. profit relationship finding)
+- (Add best/worst performing region or segment)
